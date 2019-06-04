@@ -1,0 +1,1 @@
+$redis = Redis.new(url: ENV['CONTESTS_REDIS_URL'])
