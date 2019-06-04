@@ -5,12 +5,13 @@ This is a web application to manage contests, user's login/registration and part
 ## Version 2
 
 * Built on Ruby and Ruby on Rails.
+* Bootstrap as a front-end framework.
 * Integrated with AWS.
 * Uses AWS S3 to store images and audios.
 * Uses AWS ElastiCache to store session data.
 * Uses AWS CloudFront as a CDN.
 * Uses AWS SQS to put messages in the queue. The batch/worker is responsible to process those messages.
-* Uses a MongoDB, a no-relational database.
+* Uses MongoDB, a no-relational database.
 
 ## Assumptions
 
